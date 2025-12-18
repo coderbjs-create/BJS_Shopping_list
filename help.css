@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    background-image: linear-gradient(to right, rgb(146, 139, 139), rgb(224, 231, 224), rgb(165, 165, 190));
+}
+h2{
+    text-align: left;
+    border: 2px solid black;
+}
+div{
+    font-family: cursive;
+    background-color: white;
+    margin-top: 4em;
+    margin-left: 19em;
+    margin-right: 19em;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+input{
+    font-family: Verdana;
+    font-size: 1.25em;
+    padding: 5px;
+}
+textarea{
+    font-family: Verdana;
+    font-size: 1.25em;
+    padding: 5px;
+}
+button{
+    border: 3px solid black;
+    background-color: rgb(5, 211, 5);
+    font-size: 1.25em;
+    padding: 5px;
+    font-family: Verdana;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: green;
+}
+button:active{
+    background-color: rgb(180, 243, 8);
+}
+#feedback{
+    margin-top: 5em;
+    min-height: 50vh;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="delport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping List Manager</title>
+    <link rel="stylesheet" href="del_spec.css">
+</head>
+<body id="del_spec_body_real">
+    <h1>Search one of your items now!</h1>
+    <hr>
+    <div id="del_spec_body_1">
+        <h2 style="text-align: left;">Search with name:  </h2>
+        <input type="text" placeholder="Enter your item's name." id="del_spec_name_input">
+        <br>
+        <br>
+        <button id="del_spec_name_btn">!Delete now!</button>
+        <br>
+        <br>
+        <div id="del_spec_console_1"></div>
+        <dialog id="del_spec_sure_1" >
+            <h3>Are you sure you want to delete that one of your specified item,
+                in the shopping list?
+                <br>
+                <br>
+                <form method="dialog">
+                    <button id="del_spec_yes_1">Yes</button>
+                    <button id="del_spec_no_1">No</button>
+                    <button id="del_spec_close_1">Close</button>
+                </form>
+            </h3>
+    </dialog>
+    </div>
+    <h3>or</h3>
+    <div id="del_spec_body_2">
+        <h2 style="text-align: left;">Search with index:  </h2>
+        <input type="text" placeholder="Enter your item's index." id="del_spec_index_input">
+        <br>
+        <br>
+        <button id="del_spec_index_btn">!Delete now!</button>
+        <br>
+        <br>
+        <div id="del_spec_console_2"></div>
+    </div>
+    <dialog id="del_spec_sure_2" >
+            <h3>Are you sure you want to delete that one of your specified item,
+                in the shopping list?
+                <br>
+                <br>
+                <form method="dialog">
+                    <button id="del_spec_yes_2">Yes</button>
+                    <button id="del_spec_no_2">No</button>
+                    <button id="del_spec_close_2">Close</button>
+                </form>
+            </h3>
+    </dialog>
+    <br>
+    <a href="index.html">Go back</a>
+</body>
+<script src="del_spec.js"></script>
+</html>
