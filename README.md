@@ -1,1 +1,3 @@
 # BJS_Shopping_list
+
+This is only for testing BTW. Nothing in this file is relevant....
